@@ -57,8 +57,7 @@ font-2 = siji:pixelsize=10;1
 
 modules-left = jgmenu lock logout shutdown
 modules-center = xwindow
-modules-right = filesystem xbacklight volume xkeyboard memory cpu wlan eth battery temperature date powermenu
-
+modules-right = volume memory battery date
 tray-position = right
 tray-padding = 2
 ;tray-transparent = true
