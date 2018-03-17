@@ -9,10 +9,10 @@
 
 [colors]
 ;background = ${xrdb:color0:#222}
-background = #222222
+background = #1F2326
 background-alt = #444
 ;foreground = ${xrdb:color7:#222}
-foreground = #ffffff
+foreground = #ADD75B
 foreground-alt = #555
 primary = #ffb52a
 secondary = #e60053
@@ -57,7 +57,7 @@ font-2 = siji:pixelsize=10;1
 
 modules-left = jgmenu lock logout shutdown
 modules-center = xwindow
-modules-right = volume memory battery date
+modules-right = filesystem xbacklight volume xkeyboard memory cpu wlan eth battery temperature date powermenu
 
 tray-position = right
 tray-padding = 2
@@ -108,7 +108,7 @@ click-left = "rofi -show run"
 type = custom/script
 label = %output% 
 label-padding = 5
-label-background = #222222
+label-background = #8E8365
 interval = 5
 exec = echo "TERM"
 click-left = "roxterm --hide-menubar"
@@ -117,7 +117,7 @@ click-left = "roxterm --hide-menubar"
 type = custom/script
 label = %output% 
 label-padding = 5
-label-background = #D2AC69
+label-background = #ADD75B
 interval = 10
 exec = echo "WEB"
 click-left = "vivaldi-stable"
@@ -126,7 +126,7 @@ click-left = "vivaldi-stable"
 type = custom/script
 label = %output%
 label-padding = 5
-label-background = #3f3f3f
+label-background = #1F2326
 interval = 10 
 exec = echo "FILE" 
 click-left = "pcmanfm"

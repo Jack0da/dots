@@ -20,7 +20,7 @@ static const uint8_t offsets[] = {0,0,0,0};
  *4)fixedunkilcol    5)outerbordercol
  *6)emptycol         */
 static const char *colors[] =
-{"#B7BCC7","#1E1C4D","#B7BCC7","#1E1C4D","#B7BCC7","#1E1C4D","#B7BCC7"};
+{"#DA4329","#1B1B1B","#DA4329","#1B1B1B","#DA4329","#1B1B1B","#DA4329"};
 /* if this is set to true the inner border and outer borders colors will be swapped */
 static const bool inverted_colors = true;
 ///---Cursor---///
@@ -33,7 +33,7 @@ static const bool inverted_colors = true;
 /*0) Outer border size. If you put this negative it will be a square.
  *1) Full borderwidth    2) Magnet border size
  *3) Resize border size  */
-static const uint8_t borders[] = {5,15,15,15};
+static const uint8_t borders[] = {5,15,5,15};
 /* Windows that won't have a border.
  * It uses substring comparison with what is found in the WM_NAME
  * attribute of the window. You can test this using `xprop WM_NAME`

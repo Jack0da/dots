@@ -10,10 +10,10 @@
 [colors]
 ;background = ${xrdb:color0:#222}
 background = #191B54
-background-alt = #444
+background-alt = #191B54
 ;foreground = ${xrdb:color7:#222}
 foreground = #AAB5C5
-foreground-alt = #555
+foreground-alt = #AAB5C5
 primary = #ffb52a
 secondary = #e60053
 alert = #bd2c40
@@ -39,10 +39,11 @@ fixed-center = true
 background = ${colors.background}
 foreground = ${colors.foreground}
 
-line-size = 3
+line-size = 0
 line-color = #f00
 
 border-size = 0
+broder-radius = 5
 border-color = #00000000
 
 padding-left = 2
@@ -57,7 +58,8 @@ font-2 = siji:pixelsize=10;1
 
 modules-left = jgmenu lock logout shutdown
 modules-center = xwindow
-modules-right = volume memory battery date
+modules-right = volume memory battery temperature date
+
 tray-position = right
 tray-padding = 2
 ;tray-transparent = true

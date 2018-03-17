@@ -8,7 +8,7 @@ PATHTO2bwm=$HOME/2bwm/ #Change to where your 2bwm dir is
 
 echo "Welcome to jack0da's 2bwm themer! Press [RETURN] to continue"
 read null ###just letting the user press enter before beginning. The program will function without it ###
-echo "Choose theme: [1]Icecrm [2]Solar [3]Coffee [4]Moon [*]Exit"
+echo "Choose theme: [1]Icecrm [2]Solar [3]Coffee [4]Moon [5]Jungle [6]Ashen [*]Exit"
 read theme
 case $theme in
 	1)
@@ -23,6 +23,12 @@ case $theme in
 	4)
 	  echo "'Moon' selected"
 	  cd moon;;
+	5)
+	  echo "'Jungle' selected"
+	  cd jungle;;
+	6)
+	  echo "'Ashen' selected"
+	  cd ashen;;
 	*)
 	  exit;;
 esac
