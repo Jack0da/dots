@@ -9,7 +9,7 @@ PATHTO2bwm=$HOME/2bwm/ #Change to where your 2bwm dir is
 echo "Welcome to jack0da's 2bwm themer! Press [RETURN] to continue"
 read null ###just letting the user press enter before beginning. The program will function without it ###
 echo "Choose theme: [1]Icecrm [2]Solar [3]Coffee [4]Moon [5]Jungle [6]Ashen
-[7]Pleasant [8]Dark [9] [*]Exit"
+[7]Pleasant [8]Dark [9] [10]Vape  [*]Exit"
 read theme
 case $theme in
 	1)
@@ -39,7 +39,10 @@ case $theme in
   	9)
 	  echo "'9' selected"
 	  cd 9;;
-	*)
+  	10)
+	  echo "'Vape' selected"
+	  cd vape;;
+  	*)
 	  exit;;
 esac
 cp config $HOME/.config/polybar/
